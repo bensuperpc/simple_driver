@@ -1,3 +1,8 @@
 *.cmd
 *.mod
 *.o
+simple_linux_driver.ko
+simple_linux_driver.mod.c
+modules.order
+Module.symvers
+.vscode/settings.json
