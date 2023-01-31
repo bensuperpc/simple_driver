@@ -20,6 +20,28 @@ make
 sudo make load
 ```
 
+## Usage
+
+### Enter sudo mode
+
+```sh
+su
+```
+
+### Print device output (In sudo mode)
+
+```sh
+cat /dev/device_driver0
+cat /dev/device_driver1
+```
+
+### Write to device (In sudo mode)
+
+```sh
+echo "Hello World" > /dev/device_driver0
+echo "Hello World" > /dev/device_driver1
+```
+
 ## Uninstall (Unload)
 
 ```sh
@@ -31,6 +53,7 @@ sudo make unload
 ```sh
 make clean
 ```
+
 
 ## License
 
